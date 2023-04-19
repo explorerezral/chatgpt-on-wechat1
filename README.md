@@ -97,7 +97,6 @@ pip3 install -r requirements-optional.txt
 
 默认的`openai`语音识别不需要安装`ffmpeg`。
 
-参考[#415](https://github.com/zhayujie/chatgpt-on-wechat/issues/415)
 
 使用`azure`语音功能需安装依赖（列在`requirements-optional.txt`内，但为便于`railway`部署已注释）:
 
@@ -199,9 +198,6 @@ nohup python3 app.py & tail -f nohup.out          # 在后台运行程序并通�
 > **特殊指令：** 用户向机器人发送 **#reset** 即可清空该用户的上下文记忆。
 
 
-### 3.Docker部署
-
-参考文档 [Docker部署](https://github.com/limccn/chatgpt-on-wechat/wiki/Docker%E9%83%A8%E7%BD%B2)   (Contributed by [limccn](https://github.com/limccn))。
 
 ### 4. Railway部署(✅推荐)
 > Railway每月提供5刀和最多500小时的免费额度。
@@ -209,13 +205,5 @@ nohup python3 app.py & tail -f nohup.out          # 在后台运行程序并通�
 2. 点击 `Deploy Now` 按钮。
 3. 设置环境变量来重载程序运行的参数，例如`open_ai_api_key`, `character_desc`。
 
-## 常见问题
-
-FAQs： <https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs>
 
 
-## 联系
-
-欢迎提交PR、Issues，以及Star支持一下。程序运行遇到问题优先查看 [常见问题列表](https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs) ，其次前往 [Issues](https://github.com/zhayujie/chatgpt-on-wechat/issues) 中搜索。如果你想了解更多项目细节，并与开发者们交流更多关于AI技术的实践，欢迎加入星球:
-
-<a href="https://public.zsxq.com/groups/88885848842852.html"><img width="360" src="./docs/images/planet.jpg"></a>
